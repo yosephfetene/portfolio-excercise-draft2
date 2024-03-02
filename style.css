@@ -1,0 +1,309 @@
+body{
+    font-family: "kode mono", monospace;
+}
+#intro{
+    font-family: "kode mono", monospace;
+    display: block;
+    margin: 0px;
+    float: left;
+}
+p{
+    margin: 0px;
+}
+#name{
+    font-size: 40px;
+    margin: 0px;
+    position: relative;
+    left: 50px;
+    top: 20px;
+}
+.nav{
+    font-family: "kode mono", monospace;
+    position: relative;
+    right: 170px;
+    top: 25px;
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    font-size:25px;
+    justify-content: flex-end;
+    align-items: flex-start;    
+}
+.home{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80vh;
+    text-align: center;
+}
+#img1{
+    height: 350px;
+    width: 350px;
+    border-radius: 100%;
+}
+.hello{
+    font-family: "kode mono", monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#id1{
+    font-size: 20pt;
+    color: rgba(85, 85, 85);
+}
+#id2{
+    font-size: 45pt;
+    font-weight: bold;
+}
+#id3{
+    font-size: 25pt;
+    color: rgba(85, 85, 85);
+}
+#idcv{
+    border: none;
+    width: 100px;
+    height: 30pt;
+    border-radius:30pt;
+    transition-duration: 0.2s;
+}
+#idbt{
+    border: none;
+    width: 100px;
+    height: 30pt;
+    border-radius:30pt;
+    transition-duration: 0.2s;
+}
+#idcv:hover{
+    border: solid;
+    border-width: 1pt;
+    background-color: gray;
+}
+#idbt:hover{
+    border: solid;
+    border-width: 1pt;
+    background-color: gray;
+}
+#about{
+    position: relative;
+    top: 50px;
+}
+.nav1{
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+.nav2{
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+.nav3{
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+#img2{
+    height: 450px;
+    width: 400px;
+    border-radius: 25pt;
+}
+.get{
+    text-align: center;
+    color: rgba(85, 85, 85);
+    font-size: 15pt;
+    font-family: "kode mono", monospace;
+}
+.ab{
+    text-align: center;
+    font-size: 30pt;
+    font-family: "kode mono", monospace;
+}
+#hnext{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+#hnext22{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+#hnext3{
+    width: 300px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    border-radius: 30pt;
+    border-width: 1pt;
+    align-items: center;
+    gap: 10px;
+}
+#hnext4{
+    width: 300px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    border-radius: 30pt;
+    border-width: 1pt;
+    align-items: center;
+    gap: 10px;
+}
+#hnext5{
+    width: 600px;
+    height: 100px;
+    position: relative;
+    top: 20px;
+    color: rgba(95, 95, 95);
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 10px;
+}
+.edu{
+    font-size: 20pt;
+    color: rgba(85, 85, 85);
+}
+.list{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+P{
+    font-family: "kode mono", monospace;
+}
+#experience{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 200px;
+}
+#exp1{
+    display: flex;
+    gap: 20px;
+}
+.xp{
+    display: flex;
+    gap: 20px;
+    position: relative;
+    top: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border: solid;
+    height: 400pt;
+    width: 450pt;
+    border-radius: 10pt;
+    transition-duration: 0.2s;
+}
+.xp:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(5, 8, 206);
+    .edu{
+        color: rgb(200, 255, 0);
+        font-weight: 100;
+    }
+}
+.e-icon{
+    display: inline;
+    float: left;
+    margin: 10px;
+    width: 20px;
+    height: 20px;
+    position: relative;
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 350px;
+}
+#touch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 30px;
+}
+#email{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    height:vh;
+       img{
+             display: inline;
+             float: left;
+             margin: 10px;
+             width: 30px;
+             height: 30px;
+             position: relative;
+          }
+    a{
+         color: black;
+         text-decoration: none;
+    }
+}
+#email1{
+    width: 600px;
+    height: 60px;
+    border: solid;
+    border-radius: 30pt;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-origin: 0.2s;
+}
+#email1:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(5, 8, 206);
+}
+#email2{
+    display: flex;
+    position: relative;
+    top: 40px;
+    height: 50px;
+    width: 500px;
+    justify-content: space-between;
+}
+#contact>div>.get{
+    font-size: 20pt;
+}
+#footer{
+    border: solid;
+    height: 200px;
+    width: 100%;
+    background-color: rgb(5, 8, 206);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 100px;
+    border-radius: 20pt;
+    gap: 20px;
+}
+#footer>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+@media(max-width:480px){
+    #name{
+        font-size: 20px;
+    }
+    .nav{
+        display: none;
+    }
+}
